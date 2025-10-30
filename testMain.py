@@ -41,3 +41,29 @@ totalRecords = 10
 
 format_text = f"pageNum={pageNum},pageSize={pageSize},totalRecords={totalRecords}"
 print(format_text)
+
+age = 10
+if 1 < age < 20:
+    print("young")
+else:
+    print("old")
+
+while age < 20:
+    age += 1
+    print("current age=", age)
+
+for i in range(1, 10):
+    print(i)
+
+for c in "abcdesf":
+    print(c)
+
+for item in [1, 2, 3, 4]:
+    print(item)
+
+
+for c in range(1,10):
+    for r in range(1,10):
+        print(c,"*",r,"=",c*r,end="\t")
+    print()
+
